@@ -1,0 +1,29 @@
+[
+    {
+        "hotelName": "hari hotel",
+        "hotelAddress": "shariselvan@gmail.com",
+        "quantity": "10",
+        "expiry": "05:00",
+        "phone": "6369691224",
+        "foodType": "Veg",
+        "time": "2025-07-21 07:10:05"
+    },
+    {
+        "hotelName": "hari hotel",
+        "hotelAddress": "hariselvans96@gmail.com",
+        "quantity": "10",
+        "expiry": "05:00",
+        "phone": "6369691224",
+        "foodType": "Veg",
+        "time": "2025-07-21 07:11:05"
+    },
+    {
+        "hotelName": "jnchwjbdhj",
+        "hotelAddress": "hariselvans96@gmailcom",
+        "quantity": "100",
+        "expiry": "05:00",
+        "phone": "6369691224",
+        "foodType": "Non-Veg",
+        "time": "2025-07-21 07:16:21"
+    }
+]

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Connect</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top navbar-custom">
+            <a class="navbar-brand brand-heading" href="#">FoodConnect</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active ml-2">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item navitem2 ml-2">
+                        <a class="nav-link" href="FoodConnect/index1.html">Ashrams</a>
+                    </li>
+                    <li class="nav-item navitem2 ml-2">
+                        <a class="nav-link" href="#">Hotels</a>
+                    </li>
+                    <li class="nav-item navitem2 ml-2">
+                        <a class="nav-link" href="statics.php">Statics</a>
+                    </li>
+                    <li class="nav-item navitem2 ml-2">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6" data-aos="fade-right">
+                        <!-- <h1 class="text-center brand-heading">FoodConnect</h1> -->
+                        <h1 class="display-4 font-weight-bold bridge-excess">Bridge Excess Food to Those in Need</h1>
+                        <p class="lead2">Millions of meals are wasted daily while many go hungry. Join us to connect
+                            surplus food from hotels, events, and individuals to the people who need it most.</p>
+                        <a href="#donatesection" class="btn btn-custom2 btn-lg mt-3 donate-now">Donate Now</a>
+                    </div>
+                    <div class="col-md-6 slide-left">
+                        <img src="7 HAmArivu baby.png" alt="Food Donation" class="pulsate-fwd hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container" data-aos="fade-left">
+                <h2 class="mb-4 text-center top-contributing">Top Contributing Hotels</h2>
+                <div class="rank-list p-4">
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="starlogo" viewBox="0 0 24 24"
+                                fill="currentColor" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>Hotel Grand Palace <span class="badge badge-light badge-pill">120 Donations</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="starlogo" viewBox="0 0 24 24"
+                                fill="currentColor" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            Royal Feast Hotel <span class="badge badge-light badge-pill">95 Donations</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="starlogo" viewBox="0 0 24 24"
+                                fill="currentColor" class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            Sunshine Inn <span class="badge badge-light badge-pill">80 Donations</span>
+                        </li>
+                    </ul>
+                    <div class="text-right mt-3">
+                        <a href="#" class="btn btn-custom">View All</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" id="donatesection">
+            <div class="container">
+                <h2 class="text-center mb-5 top-contributing">Ways to Donate</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <div class="card p-4 text-center">
+                            <i class="fas fa-hotel fa-3x mb-3"></i>
+                            <h5>Hotels Food Donate</h5>
+                            <p>Donate surplus food from hotels to feed the needy.</p>
+                            <a href="#" class="btn btn-custom" data-toggle="modal" data-target="#hotelModal">Donate</a>
+                            <div class="modal fade" id="hotelModal" tabindex="-1" role="dialog"
+                                aria-labelledby="hotelModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-primary text-white">
+                                            <h5 class="modal-title" id="hotelModalLabel">Hotel Food Donation</h5>
+                                            <button type="button" class="close text-white" data-dismiss="modal"
+                                                aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <form method="POST" action="send-mail.php">
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <label for="hotelName" class="text-dark">Hotel Name</label>
+                                                    <input type="text" class="form-control" id="hotelName"
+                                                        name="hotelName" placeholder="Enter hotel name" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="hotelAddress" class="text-dark">Address</label>
+                                                    <input type="text" class="form-control" id="hotelAddress"
+                                                        name="hotelAddress" placeholder="Enter address" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="quantity" class="text-dark">Quantity (Meals)</label>
+                                                    <input type="number" class="form-control" id="quantity"
+                                                        name="quantity" placeholder="Quantity food" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="expiry" class="text-dark">Expiry Time</label>
+                                                    <input type="time" class="form-control" id="expiry" name="expiry"
+                                                        required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="phone" class="text-dark">Phone Number</label>
+                                                    <input type="tel" class="form-control" id="phone" name="phone"
+                                                        placeholder="Enter contact number" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="text-dark">Food Type</label><br>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="foodType"
+                                                            id="veg" value="Veg" required>
+                                                        <label class="form-check-label text-dark" for="veg">Veg</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio" name="foodType"
+                                                            id="nonVeg" value="Non-Veg" required>
+                                                        <label class="form-check-label text-dark"
+                                                            for="nonVeg">Non-Veg</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-primary">Submit Donation</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card p-4 text-center">
+                            <i class="fas fa-glass-cheers fa-3x mb-3"></i>
+                            <h5>Function Food Donate</h5>
+                            <p>Contribute leftover food from events and functions.</p>
+                            <a href="#" class="btn btn-custom" data-toggle="modal"
+                                data-target="#functionModal">Donate</a>
+                            <div class="modal fade" id="functionModal" tabindex="-1" role="dialog"
+                                aria-labelledby="functionModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-success text-white">
+                                            <h5 class="modal-title" id="functionModalLabel">Function Food Donation</h5>
+                                            <button type="button" class="close text-white" data-dismiss="modal"
+                                                aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <form method="POST" action="sendmail-function.php">
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <label for="functionName" class="text-dark">Function Name /
+                                                        Event</label>
+                                                    <input type="text" class="form-control" name="functionName"
+                                                        placeholder="Enter event name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="venue" class="text-dark">Venue Address</label>
+                                                    <input type="text" class="form-control" name="venue"
+                                                        placeholder="Enter address">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="quantityFunction" class="text-dark">Quantity
+                                                        (Meals)</label>
+                                                    <input type="number" class="form-control" name="quantityFunction"
+                                                        placeholder="Food Quantity">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="expiryFunction" class="text-dark">Expiry Time</label>
+                                                    <input type="time" class="form-control" name="expiryFunction">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="phoneFunction" class="text-dark">Phone Number</label>
+                                                    <input type="tel" class="form-control" name="phoneFunction"
+                                                        placeholder="Enter contact number">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="text-dark">Food Type</label><br>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio"
+                                                            name="foodTypeFunction" name="vegFunction" value="Veg">
+                                                        <label class="form-check-label text-dark"
+                                                            for="vegFunction">Veg</label>
+                                                    </div>
+                                                    <div class="form-check form-check-inline">
+                                                        <input class="form-check-input" type="radio"
+                                                            name="foodType" name="nonVegFunction" value="Non-Veg">
+                                                        <label class="form-check-label text-dark"
+                                                            for="nonVegFunction">Non-Veg</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-success">Submit Donation</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card p-4 text-center">
+                            <i class="fas fa-hand-holding-heart fa-3x mb-3"></i>
+                            <h5>General Donate</h5>
+                            <p>Support food distribution with general donations.</p>
+                            <a href="#" class="btn btn-custom" data-toggle="modal"
+                                data-target="#generalModal">Donate</a>
+                            <div class="modal fade" id="generalModal" tabindex="-1" role="dialog"
+                                aria-labelledby="generalModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header bg-warning text-dark">
+                                            <h5 class="modal-title" id="generalModalLabel">General Donation</h5>
+                                            <button type="button" class="close text-dark" data-dismiss="modal"
+                                                aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <form method="POST" action="sendmail-general.php">
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <label for="donorName" class="text-dark">Your Name</label>
+                                                    <input type="text" class="form-control" name="donorName"
+                                                        placeholder="Enter your name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="donorContact" class="text-dark">Contact Number</label>
+                                                    <input type="tel" class="form-control" name="donorContact"
+                                                        placeholder="Enter contact number">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="donationType" class="text-dark">Donation Type</label>
+                                                    <select class="form-control" id="donationType">
+                                                        <option value="Food">Food</option>
+                                                        <option value="Dress">Dress</option>
+                                                        <option value="Money">Money</option>
+                                                        <option value="Other">Other</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="donationDetails" class="text-dark">Additional
+                                                        Details</label>
+                                                    <textarea class="form-control" name="donationDetails" rows="3"
+                                                        placeholder="Enter quantity, address, etc."></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-warning">Submit Donation</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <footer class="text-center py-0 bg-dark">
+            <div class="container">
+                <p>© 2025 Food Connect. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
